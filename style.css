@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap');
+
+@viewport {
+	zoom: 1.0;
+	width: extend-to-zoom;
+}
+
+@-ms-viewport {
+	width: extend-to-zoom;
+	zoom: 0.1;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+body	{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, 'Roboto+Condensed', sans-serif;
+}
+
+nav	{
+	background-color: #32a87f;
+	margin: 10px;
+	padding: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	position: sticky;
+	top: 0px;
+
+}
+
+a:hover {
+	font-size: 20px;
+}
+
+
+a	{
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+.aimportant {
+
+	color: white;
+	padding: 5px;
+	background-color: lightskyblue;
+	border-radius: 20px;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin: 0;
+}
+
+
+main {
+	background-image: url(assets/image/email-pattern.png);
+}
+
+
+
+h1, h2,	{
+
+	background-color: orange;
+	color: #32a87f;
+	display: inline-block;
+}
+
+aside	{
+	background-image: url(assets/image/email-pattern.png);
+
+	
+}
+
+video {
+
+	margin: 10px;
+	padding: 5px;
+	border-radius: 50px;
+	border: 5px solid grey;
+}
+
+
+footer	{
+	background-color: #32a87f;
+	padding: 30px;
+	text-align: center;
+	margin: 5px;
+	color: whitesmoke;
+	clear: right;
+}
+
+@media only screen and (max-width: 480px) {
+
+	video {
+
+		width: 400px;
+	}
+}
